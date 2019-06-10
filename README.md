@@ -1,7 +1,4 @@
 # CS 517 Final Project
-Final Project for CS517.
-
-# CS 517 Final Project
 
 I take my model that I use in my research based around Game Theory and perform a reduction from an SMT. 
 
@@ -38,37 +35,37 @@ I have commented out many different settings that you can use, but here are some
 
 ### From Paper 
 ```
-	intents = ['CS', 'EE']
-	queries = ['x', 'y']
-	tuples = ['CS517', 'EE433']
-	matches = [('CS', 'CS517'), ('EE', 'EE433')]
+intents = ['CS', 'EE']
+queries = ['x', 'y']
+tuples = ['CS517', 'EE433']
+matches = [('CS', 'CS517'), ('EE', 'EE433')]
 ```
 
 ### Basic 2 intents 
 
 ```
-	intents = ['apple', 'orange']
-	queries = ['x', 'y']
-	tuples = ['apple gross', 'orange tasty']
-	matches = [('apple', 'apple gross'), ('orange', 'orange tasty')]
+intents = ['apple', 'orange']
+queries = ['x', 'y']
+tuples = ['apple gross', 'orange tasty']
+matches = [('apple', 'apple gross'), ('orange', 'orange tasty')]
 ```
 
 ### Basic 3 intents
 
 ```
-	intents = ['apple', 'orange', 'plum']
-	queries = ['x', 'y', 'z']
-	tuples = ['apple gross', 'orange tasty', 'plum oh boy!']
-	matches = [('apple', 'apple gross'), ('orange', 'orange tasty'), ('plum', 'plum oh boy!')]
+intents = ['apple', 'orange', 'plum']
+queries = ['x', 'y', 'z']
+tuples = ['apple gross', 'orange tasty', 'plum oh boy!']
+matches = [('apple', 'apple gross'), ('orange', 'orange tasty'), ('plum', 'plum oh boy!')]
 ```
 
 ### Not enough signals
 
 ```
-	intents = ['apple', 'orange', 'plum']
-	queries = ['a', 'x']
-	tuples = ['apple gross', 'orange tasty', 'plum oh boy!']
-	matches = [('apple', 'apple gross'), ('orange', 'orange tasty'), ('plum', 'plum oh boy!')]
+intents = ['apple', 'orange', 'plum']
+queries = ['a', 'x']
+tuples = ['apple gross', 'orange tasty', 'plum oh boy!']
+matches = [('apple', 'apple gross'), ('orange', 'orange tasty'), ('plum', 'plum oh boy!')]
 ```
 ### More than one correct answer
 
