@@ -1,0 +1,161 @@
+\begin{thebibliography}{10}
+
+\bibitem{auer2002finite}
+P.~Auer, N.~Cesa-Bianchi, and P.~Fischer.
+\newblock Finite-time analysis of the multiarmed bandit problem.
+\newblock {\em Machine learning}, 47(2-3):235--256, 2002.
+
+\bibitem{bush1953stochastic}
+R.~R. Bush and F.~Mosteller.
+\newblock A stochastic model with applications to learning.
+\newblock {\em The Annals of Mathematical Statistics}, pages 559--585, 1953.
+
+\bibitem{cen2013reinforcement}
+Y.~Cen, L.~Gan, and C.~Bai.
+\newblock Reinforcement learning in information searching.
+\newblock {\em Information Research: An International Electronic Journal},
+  18(1), 2013.
+
+\bibitem{Chatzopoulou:2009:QRI:1561638.1561642}
+G.~Chatzopoulou, M.~Eirinaki, and N.~Polyzotis.
+\newblock Query recommendations for interactive database exploration.
+\newblock In {\em Proceedings of the 21st International Conference on
+  Scientific and Statistical Database Management}, SSDBM 2009, pages 3--18,
+  Berlin, Heidelberg, 2009. Springer-Verlag.
+
+\bibitem{Chaudhuri:2006:PIR:1166074.1166085}
+S.~Chaudhuri, G.~Das, V.~Hristidis, and G.~Weikum.
+\newblock Probabilistic information retrieval approach for ranking of database
+  query results.
+\newblock {\em TODS}, 31(3), 2006.
+
+\bibitem{Chen:2009:KSS}
+Y.~Chen, W.~Wang, Z.~Liu, and X.~Lin.
+\newblock Keyword search on structured and semi-structured data.
+\newblock In {\em SIGMOD}, 2009.
+
+\bibitem{Cho:QuarterlyJournalEconomics:1987}
+I.~Cho and D.~Kreps.
+\newblock Signaling games and stable equilibria.
+\newblock {\em Quarterly Journal of Economics}, 102, 1987.
+
+\bibitem{cross1973stochastic}
+J.~G. Cross.
+\newblock A stochastic learning model of economic behavior.
+\newblock {\em The Quarterly Journal of Economics}, 87(2):239--266, 1973.
+
+\bibitem{Daskalakis:2010:LAN:1929237.1929248}
+C.~Daskalakis, R.~Frongillo, C.~H. Papadimitriou, G.~Pierrakos, and G.~Valiant.
+\newblock On learning algorithms for nash equilibria.
+\newblock In {\em Proceedings of the Third International Conference on
+  Algorithmic Game Theory}, SAGT'10, pages 114--125, Berlin, Heidelberg, 2010.
+  Springer-Verlag.
+
+\bibitem{daskalakis2009complexity}
+C.~Daskalakis, P.~W. Goldberg, and C.~H. Papadimitriou.
+\newblock The complexity of computing a nash equilibrium.
+\newblock {\em SIAM Journal on Computing}, 39(1):195--259, 2009.
+
+\bibitem{gilboa1989nash}
+I.~Gilboa and E.~Zemel.
+\newblock Nash and correlated equilibria: Some complexity considerations.
+\newblock {\em Games and Economic Behavior}, 1(1):80--93, 1989.
+
+\bibitem{Granka:2004:EAU:1008992.1009079}
+L.~A. Granka, T.~Joachims, and G.~Gay.
+\newblock Eye-tracking analysis of user behavior in www search.
+\newblock In {\em SIGIR}, 2004.
+
+\bibitem{Grotov:2016:OLR:2911451.2914798}
+A.~Grotov and M.~de~Rijke.
+\newblock Online learning to rank for information retrieval: Sigir 2016
+  tutorial.
+\newblock In {\em Proceedings of the 39th International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, SIGIR '16, pages
+  1215--1218, New York, NY, USA, 2016. ACM.
+
+\bibitem{IRStyle}
+V.~Hristidis, L.~Gravano, and Y.~Papakonstantinou.
+\newblock {Efficient IR-Style Keyword Search over Relational Databases}.
+\newblock In {\em VLDB 2003}.
+
+\bibitem{hu2011reinforcement}
+Y.~Hu, B.~Skyrms, and P.~Tarr{\`e}s.
+\newblock Reinforcement learning in signaling game.
+\newblock {\em arXiv preprint arXiv:1103.5818}, 2011.
+
+\bibitem{Huang:2012:USU:2207676.2208591}
+J.~Huang, R.~White, and G.~Buscher.
+\newblock User see, user point: Gaze and cursor alignment in web search.
+\newblock In {\em CHI}, 2012.
+
+\bibitem{Idreos:SIGMOD:2015}
+S.~Idreos, O.~Papaemmanouil, and S.~Chaudhuri.
+\newblock Overview of data exploration techniques.
+\newblock In {\em SIGMOD}, 2015.
+
+\bibitem{Usable:Jagadish}
+H.~V. Jagadish, A.~Chapman, A.~Elkiss, M.~Jayapandian, Y.~Li, A.~Nandi, and
+  C.~Yu.
+\newblock Making database systems usable.
+\newblock In {\em {SIGMOD}}, 2007.
+
+\bibitem{DBLP:conf/icde/LiarouI14}
+E.~Liarou and S.~Idreos.
+\newblock dbtouch in action database kernels for touch-based data exploration.
+\newblock In {\em {IEEE} 30th International Conference on Data Engineering,
+  Chicago, {ICDE} 2014, IL, USA, March 31 - April 4, 2014}, pages 1262--1265,
+  2014.
+
+\bibitem{IRBook}
+C.~Manning, P.~Raghavan, and H.~Schutze.
+\newblock {\em {An Introduction to Information Retrieval}}.
+\newblock {Cambridge University Press}, 2008.
+
+\bibitem{moon2012online}
+T.~Moon, W.~Chu, L.~Li, Z.~Zheng, and Y.~Chang.
+\newblock An online learning framework for refining recency search results with
+  user click feedback.
+\newblock {\em ACM Transactions on Information Systems (TOIS)}, 30(4):20, 2012.
+
+\bibitem{10.2307/1969529}
+J.~Nash.
+\newblock Non-cooperative games.
+\newblock {\em Annals of Mathematics}, 54(2):286--295, 1951.
+
+\bibitem{radlinski2008learning}
+F.~Radlinski, R.~Kleinberg, and T.~Joachims.
+\newblock Learning diverse rankings with multi-armed bandits.
+\newblock In {\em Proceedings of the 25th international conference on Machine
+  learning}, pages 784--791. ACM, 2008.
+
+\bibitem{robertson2009probabilistic}
+S.~Robertson, H.~Zaragoza, et~al.
+\newblock The probabilistic relevance framework: Bm25 and beyond.
+\newblock {\em Foundations and Trends{\textregistered} in Information
+  Retrieval}, 3(4):333--389, 2009.
+
+\bibitem{roth1995learning}
+A.~E. Roth and I.~Erev.
+\newblock Learning in extensive-form games: Experimental data and simple
+  dynamic models in the intermediate term.
+\newblock {\em Games and economic behavior}, 8(1):164--212, 1995.
+
+\bibitem{sandholm2002complexity}
+V.~C.~T. Sandholm.
+\newblock Complexity results about nash equilibria.
+\newblock 2002.
+
+\bibitem{vorobev2015gathering}
+A.~Vorobev, D.~Lefortier, G.~Gusev, and P.~Serdyukov.
+\newblock Gathering additional feedback on search results by multi-armed
+  bandits with respect to production ranking.
+\newblock In {\em WWW}, pages 1177--1187. International World Wide Web
+  Conferences Steering Committee, 2015.
+
+\bibitem{Yue:2012:KDB:2240304.2240501}
+Y.~Yue, J.~Broder, R.~Kleinberg, and T.~Joachims.
+\newblock The k-armed dueling bandits problem.
+\newblock {\em J. Comput. Syst. Sci.}, 78(5), 2012.
+
+\end{thebibliography}
