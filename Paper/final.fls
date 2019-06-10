@@ -1,4 +1,4 @@
-PWD /Users/benmccamish/Research/19.Spring2018-19/CS517/Assignments/FinalProject/Paper
+PWD /Users/benmccamish/cs517Final/Paper
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -251,6 +251,7 @@ INPUT ./images/strictPaper.png
 INPUT images/nashPaper.png
 INPUT ./images/nashPaper.png
 INPUT ./images/nashPaper.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT final.bbl
 INPUT final.bbl
 INPUT final.brf
@@ -275,3 +276,4 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb

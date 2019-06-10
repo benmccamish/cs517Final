@@ -100,7 +100,7 @@ We will be reducing and creating three main contributions, of which the reductio
 
 \subsection{Simplifications}
 \label{sec:simplifications}
-We will be making some simplifications to our model. We are restricting the strategies to only Pure Strategies, thus only probabilities of 0 or 1 in strategies. After our discussion and emailing the student you put me in contact with, we couldn't find a way to construct a bounded quantifier for the reductions. SMT is also limited in that all variables in the formula must have the same domain. Since we are using a uniform prior over the intents we are left with fractions in Equation~\ref{eqn:payoff}. Thus all variables in the following reductions are Real numbers.
+We will be making some simplifications to our model. We are restricting the strategies to only Pure Strategies, thus only probabilities of 0 or 1 in strategies. After our discussion and emailing the student you put me in contact with, we couldn't find a way to construct a bounded quantifier for the reductions. PySMT is also limited in that all variables in the formula must have the same domain. Since we are using a uniform prior over the intents we are left with fractions in Equation~\ref{eqn:payoff}. Thus all variables in the following reductions are Real numbers.
 
 We will be instantiating some of the reductions for clarity. For these instantiations, we will use the strategy profile and reward matrix in Figure~\ref{example:framework:table:strategies:sender}, \ref{example:framework:table:strategies:receiver}, and \ref{example:framework:table:strategies:reward}. We will also be using notation such that the variable $U_{apple,x}$ is the variable for that cell in the user strategy. In addition, we will be showing each part of the reduction separately. The final SMT will of course be a conjunction between the individual portions, but it should be clearer by breaking them up into separate parts. 
 
@@ -151,7 +151,7 @@ We will be instantiating some of the reductions for clarity. For these instantia
 \end{table}
 
 \subsection{Domains}
-The first clause in the reduction will be that of the domains for each variable. Since the strategies we are looking at are Pure strategies, then the variables can only take on values 0 and 1. Due to some of the limitations of SMT, each of the variables are real numbers. Thus, to enforce this restriction, we have the following SMT:
+The first clause in the reduction will be that of the domains for each variable. Since the strategies we are looking at are Pure strategies, then the variables can only take on values 0 and 1. Due to some of the limitations of PySMT, each of the variables are real numbers. Thus, to enforce this restriction, we have the following SMT:
 
 \begin{align}
 \label{eqn:domain}
@@ -380,7 +380,7 @@ Keeping the current settings lets look at the output when we test on just a Nash
 \centering
 \includegraphics[width=20cm]{images/nashPaper}
 \label{fig:paper}
-\caption{Strict Nash Solution}
+\caption{Nash Solution}
 \end{figure}
 
 This is a good example of a Nash equilibria. It is obviously not the best payoff we know we can receive from this setting. However, any single move that either player makes will result in a lesser or equal payoff. For example, no matter what query the user sends for ``EE'', it will always receive ``CS517''. If the DBMS decides to return ``EE433'' for the query ``y'', then the EE intent is satisfied, but now the CS intent is not satisfied. Again, a better strategy could be met by making multiple moves, but there is no incentive for the user or the DBMS to do this, as all the payoffs are the same or less. 
@@ -431,7 +431,7 @@ This is a good example of a Nash equilibria. It is obviously not the best payoff
     \end{minipage}
 \end{table}
 
-Running the encoding of the SMT in Python was fairly fast for small strategies. As soon as I increased the size of intents, queries, and tuples to more than a couple dozen, it takes an incredibly long time. However, PySMT uses Cython so I was able to get that installed and working which I believe improved running times. 
+Running the encoding of the SMT in Python was fairly fast for small strategies. As soon as I increased the size of intents, queries, and tuples to more than a couple dozen, it takes an incredibly long time. However, PySMT uses Cython so I was able to get that installed and working which I believe improved running times. Here is a link to the repository: \url{https://github.com/benmccamish/cs517Final}.
 
 \bibliographystyle{abbrv}
 \bibliography{bib}

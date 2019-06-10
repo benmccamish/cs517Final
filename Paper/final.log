@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  10 JUN 2019 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  10 JUN 2019 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -778,11 +778,11 @@ Package rerunfilecheck Info: File `final.brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 439.
  ) 
 Here is how much of TeX's memory you used:
- 25016 strings out of 492649
- 541877 string characters out of 6129622
+ 25018 strings out of 492649
+ 541898 string characters out of 6129622
  704816 words of memory out of 5000000
- 28463 multiletter control sequences out of 15000+600000
- 9678 words of font info for 38 fonts, out of 8000000 for 9000
+ 28464 multiletter control sequences out of 15000+600000
+ 9846 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,56p,1320b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -796,11 +796,12 @@ local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on final.pdf (10 pages, 1051423 bytes).
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on final.pdf (10 pages, 1063466 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 308 compressed objects within 4 object streams
+ 345 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
  83 named destinations out of 1000 (max. 500000)
  159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
